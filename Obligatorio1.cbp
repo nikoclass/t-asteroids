@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="T-Asteroids" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\T-Asteroids" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\Debug" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-O1" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Debug\T-Asteroids" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\Debug" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-O1" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-fexpensive-optimizations" />
+			<Add option="-O3" />
+			<Add option="-O2" />
+			<Add option="-O1" />
+			<Add option="-O" />
+			<Add option="-g" />
+			<Add directory="C:\Archivos de programa\MinGW\include" />
+		</Compiler>
+		<Linker>
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="kernel32" />
+			<Add library="libws2_32.a" />
+			<Add library="bin\Debug\glut32.lib" />
+			<Add library="bin\Debug\libfmodex.a" />
+			<Add directory="C:\Archivos de programa\MinGW\lib" />
+			<Add directory="bin\Debug" />
+		</Linker>
+		<Unit filename="Animable.cpp" />
+		<Unit filename="Animable.h" />
+		<Unit filename="Asteroide.cpp" />
+		<Unit filename="Asteroide.h" />
+		<Unit filename="BalaComun.cpp" />
+		<Unit filename="BalaComun.h" />
+		<Unit filename="BolaExplosiva.cpp" />
+		<Unit filename="BolaExplosiva.h" />
+		<Unit filename="CadenaParticulas.cpp" />
+		<Unit filename="CadenaParticulas.h" />
+		<Unit filename="Camara.cpp" />
+		<Unit filename="Camara.h" />
+		<Unit filename="ClienteAsteroide.cpp" />
+		<Unit filename="ClienteAsteroide.h" />
+		<Unit filename="ClienteBalaComun.cpp" />
+		<Unit filename="ClienteBalaComun.h" />
+		<Unit filename="ClienteChat.cpp" />
+		<Unit filename="ClienteChat.h" />
+		<Unit filename="ClienteMisil.cpp" />
+		<Unit filename="ClienteMisil.h" />
+		<Unit filename="ClienteModoJuego.cpp" />
+		<Unit filename="ClienteModoJuego.h" />
+		<Unit filename="ClienteNaveGhost.cpp" />
+		<Unit filename="ClienteNaveGhost.h" />
+		<Unit filename="ClienteNavePesada.cpp" />
+		<Unit filename="ClienteNavePesada.h" />
+		<Unit filename="ClienteNavePichi.cpp" />
+		<Unit filename="ClienteNavePichi.h" />
+		<Unit filename="ClientePoder.cpp" />
+		<Unit filename="ClientePoder.h" />
+		<Unit filename="ClienteRed.cpp" />
+		<Unit filename="ClienteRed.h" />
+		<Unit filename="Colisionable.cpp" />
+		<Unit filename="Colisionable.h" />
+		<Unit filename="CondTargeteable.cpp" />
+		<Unit filename="CondTargeteable.h" />
+		<Unit filename="Condicionable.h" />
+		<Unit filename="Condition.h" />
+		<Unit filename="ControladorClienteRed.cpp" />
+		<Unit filename="ControladorClienteRed.h" />
+		<Unit filename="ControladorConexionRed.cpp" />
+		<Unit filename="ControladorConexionRed.h" />
+		<Unit filename="ControladorRed.cpp" />
+		<Unit filename="ControladorRed.h" />
+		<Unit filename="CtrlJuego.cpp" />
+		<Unit filename="CtrlJuego.h" />
+		<Unit filename="Dibujable.cpp" />
+		<Unit filename="Dibujable.h" />
+		<Unit filename="EfectoRotEsc.cpp" />
+		<Unit filename="EfectoRotEsc.h" />
+		<Unit filename="Electricidad.cpp" />
+		<Unit filename="Electricidad.h" />
+		<Unit filename="Engine.cpp" />
+		<Unit filename="Engine.h" />
+		<Unit filename="Escena.cpp" />
+		<Unit filename="Escena.h" />
+		<Unit filename="Esfera.cpp" />
+		<Unit filename="Esfera.h" />
+		<Unit filename="Espiral.cpp" />
+		<Unit filename="Espiral.h" />
+		<Unit filename="Evento.cpp" />
+		<Unit filename="Evento.h" />
+		<Unit filename="Explosion.cpp" />
+		<Unit filename="Explosion.h" />
+		<Unit filename="ExplosionParticulas.cpp" />
+		<Unit filename="ExplosionParticulas.h" />
+		<Unit filename="FBalaComun.cpp" />
+		<Unit filename="FBalaComun.h" />
+		<Unit filename="FElectricidad.cpp" />
+		<Unit filename="FElectricidad.h" />
+		<Unit filename="FEmbestida.cpp" />
+		<Unit filename="FEmbestida.h" />
+		<Unit filename="FMisil.cpp" />
+		<Unit filename="FMisil.h" />
+		<Unit filename="FMunicion.cpp" />
+		<Unit filename="FMunicion.h" />
+		<Unit filename="GL.h" />
+		<Unit filename="HashTable.cpp" />
+		<Unit filename="HashTable.h" />
+		<Unit filename="Hasheable.h" />
+		<Unit filename="Humo.cpp" />
+		<Unit filename="Humo.h" />
+		<Unit filename="LensFlare.cpp" />
+		<Unit filename="LensFlare.h" />
+		<Unit filename="Logger.cpp" />
+		<Unit filename="Logger.h" />
+		<Unit filename="Luz.cpp" />
+		<Unit filename="Luz.h" />
+		<Unit filename="MFisica.cpp" />
+		<Unit filename="MFisica.h" />
+		<Unit filename="MainMenu3D.cpp" />
+		<Unit filename="MainMenu3D.h" />
+		<Unit filename="Malla.cpp" />
+		<Unit filename="Malla.h" />
+		<Unit filename="ManejadorModelos.cpp" />
+		<Unit filename="ManejadorModelos.h" />
+		<Unit filename="ManejadorTexturas.cpp" />
+		<Unit filename="ManejadorTexturas.h" />
+		<Unit filename="Matematicas.cpp" />
+		<Unit filename="Matematicas.h" />
+		<Unit filename="Material.cpp" />
+		<Unit filename="Material.h" />
+		<Unit filename="Matriz4x4.cpp" />
+		<Unit filename="Matriz4x4.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="MenuConfig3D.cpp" />
+		<Unit filename="MenuConfig3D.h" />
+		<Unit filename="MenuCreditos.cpp" />
+		<Unit filename="MenuCreditos.h" />
+		<Unit filename="MenuItem.cpp" />
+		<Unit filename="MenuItem.h" />
+		<Unit filename="MenuJuego.cpp" />
+		<Unit filename="MenuJuego.h" />
+		<Unit filename="MenuNave.cpp" />
+		<Unit filename="MenuNave.h" />
+		<Unit filename="MenuRed.cpp" />
+		<Unit filename="MenuRed.h" />
+		<Unit filename="Misil.cpp" />
+		<Unit filename="Misil.h" />
+		<Unit filename="Modelo.cpp" />
+		<Unit filename="Modelo.h" />
+		<Unit filename="Modo.cpp" />
+		<Unit filename="Modo.h" />
+		<Unit filename="ModoJuego.cpp" />
+		<Unit filename="ModoJuego.h" />
+		<Unit filename="ModoMenu3D.cpp" />
+		<Unit filename="ModoMenu3D.h" />
+		<Unit filename="Mouse.cpp" />
+		<Unit filename="Mouse.h" />
+		<Unit filename="Multiobjeto3d.cpp" />
+		<Unit filename="Multiobjeto3d.h" />
+		<Unit filename="Municion.cpp" />
+		<Unit filename="Municion.h" />
+		<Unit filename="Nave.cpp" />
+		<Unit filename="Nave.h" />
+		<Unit filename="NaveGhostM.cpp" />
+		<Unit filename="NaveGhostM.h" />
+		<Unit filename="NavePesada.cpp" />
+		<Unit filename="NavePesada.h" />
+		<Unit filename="NavePichi.cpp" />
+		<Unit filename="NavePichi.h" />
+		<Unit filename="Objeto3d.cpp" />
+		<Unit filename="Objeto3d.h" />
+		<Unit filename="ObserversConexion.cpp" />
+		<Unit filename="ObserversConexion.h" />
+		<Unit filename="OrbitaParticulas.cpp" />
+		<Unit filename="OrbitaParticulas.h" />
+		<Unit filename="PaqueteRed.cpp" />
+		<Unit filename="PaqueteRed.h" />
+		<Unit filename="Poder.cpp" />
+		<Unit filename="Poder.h" />
+		<Unit filename="Producto.h" />
+		<Unit filename="ProductorConsumidor.cpp" />
+		<Unit filename="ProductorConsumidor.h" />
+		<Unit filename="PrototiposClientes.cpp" />
+		<Unit filename="PrototiposClientes.h" />
+		<Unit filename="Ref.h" />
+		<Unit filename="SeccionCritica.cpp" />
+		<Unit filename="SeccionCritica.h" />
+		<Unit filename="ServidorChat.cpp" />
+		<Unit filename="ServidorChat.h" />
+		<Unit filename="ServidorRed.cpp" />
+		<Unit filename="ServidorRed.h" />
+		<Unit filename="Settings.cpp" />
+		<Unit filename="Settings.h" />
+		<Unit filename="SistemaParticulas.cpp" />
+		<Unit filename="SistemaParticulas.h" />
+		<Unit filename="Socket.cpp" />
+		<Unit filename="Socket.h" />
+		<Unit filename="SoundManager.cpp" />
+		<Unit filename="SoundManager.h" />
+		<Unit filename="Sprite.cpp" />
+		<Unit filename="Sprite.h" />
+		<Unit filename="Targeteable.h" />
+		<Unit filename="Teclado.cpp" />
+		<Unit filename="Teclado.h" />
+		<Unit filename="TextBox.cpp" />
+		<Unit filename="TextBox.h" />
+		<Unit filename="Texto2D.cpp" />
+		<Unit filename="Texto2D.h" />
+		<Unit filename="Texto3D.cpp" />
+		<Unit filename="Texto3D.h" />
+		<Unit filename="Textura.cpp" />
+		<Unit filename="Textura.h" />
+		<Unit filename="Thread.cpp" />
+		<Unit filename="Thread.h" />
+		<Unit filename="Vector.cpp" />
+		<Unit filename="Vector.h" />
+		<Unit filename="main.cc" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
